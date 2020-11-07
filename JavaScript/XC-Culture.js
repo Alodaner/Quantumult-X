@@ -5,7 +5,6 @@
 
 [MITM]
 hostname:avoscloud.com
-
 */
 
 var body = $response.body; 
