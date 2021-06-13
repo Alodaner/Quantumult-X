@@ -11,8 +11,10 @@ Surge4.0: [Script]
 http-response https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js
 
 QX & Q & Surge Mitm = ap*.intsig.net,
+
+1643731200
 */
 
 let obj = JSON.parse($response.body);
-obj = {"data":{"psnl_vip_property":{"expiry":"1643731200"}}};
+obj = {"data":{"psnl_vip_property":{"expiry":"4073275762"}}};
 $done({body: JSON.stringify(obj)});
