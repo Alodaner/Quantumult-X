@@ -1,20 +1,4 @@
-hostname = ap*.intsig.net
-           ,pan.baidu.com
-           ,avoscloud.com
-           ,account.wps.cn
-           ,vira.llsapp.com
-           ,notability.com
-           ,server.yoyiapp.com
-           ,*.gotokeep.com
-           ,buy.itunes.apple.com
-           ,api.revenuecat.com
-           ,dxy.com
-           ,mid.zineapi.com
-           ,api-prod.languagedrops.com
-           ,*.wallpaperscraft.com
-           ,vni.kwaiying.com
-           ,spclient.wg.spotify.com
-           ,api.tidal.com
+hostname = ap*.intsig.net,pan.baidu.com,avoscloud.com,account.wps.cn,vira.llsapp.com,notability.com,server.yoyiapp.com,*.gotokeep.com,buy.itunes.apple.com,api.revenuecat.com,dxy.com,mid.zineapi.com,api-prod.languagedrops.com,*.wallpaperscraft.com,vni.kwaiying.com,spclient.wg.spotify.com,api.tidal.com
             
 
 
