@@ -100,6 +100,3 @@ https?:\/\/api\.magictouch\.design\/user\/user\/getUserByDevice url script-respo
 
 # > TIDAL Plus 丨
 ^https?:\/\/api\.tidal\.com\/v1\/(pages\/album|(user|track|page)s\/(\d+)\/(state|subscription|lyrics|onboarding|playbackinfopostpaywall)) url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/TIDALHiFiPlusCrack.js
-
-# Endel  丨
-^https?:\/\/api-production.endel.io\/v3\/call url script-response-body https://raw.githubusercontent.com/cpphut/scripts/main/js/endel.js
