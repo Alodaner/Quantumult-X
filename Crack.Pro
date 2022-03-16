@@ -17,6 +17,9 @@ hostname =  -cdn*.smoot.apple.com, -fbs.smoot.apple.com, *.smoot.apple.com, *.sm
 # > 空气质量 丨 weather-data.apple.com
 ^https?:\/\/weather-data\.apple\.com\/(v1|v2)\/weather.*(?!dataSets=forecastNextHour)(include=.*air_quality.*|dataSets=.*airQuality.*).*(country=[A-Z]{2})?.* url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Apple_Weather.js
 
+# Symbolab  丨 scibug.com
+^https?:\/\/scibug\.com\/appleSubscriptionValidate$ url script-response-body https://raw.githubusercontent.com/harry-sunhao/QuanX/main/Symbolab/symbolab.js
+
 # > Slidebox 丨 %APPEND% asia-east2-slidebox-ios-prod.cloudfunctions.net
 ^https:\/\/asia-east2-slidebox-ios-prod\.cloudfunctions\.net\/api_v1$ url script-response-body https://raw.githubusercontent.com/githubdulong/Script/master/Slidebox.js
 
