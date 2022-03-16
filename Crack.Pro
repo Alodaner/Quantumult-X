@@ -1,28 +1,25 @@
-hostname =  -cdn*.smoot.apple.com,
-            -fbs.smoot.apple.com,
-            *.smoot.apple.com,
-            *.smoot.apple.cn,
-            scibug.com,
-            %APPEND% asia-east2-slidebox-ios-prod.cloudfunctions.net,
-            weather-data.apple.com , 
+hostname = weather-data.apple.com , 
             *.intsig.net , 
-            pan.baidu.com , 
+            pan.baidu.com ,
             lchttpapi.xczim.com , 
             account.wps.cn , 
             account.wps.* ,
             vira.llsapp.com , 
-            notability.com ,
+            notability.com , 
             server.yoyiapp.com , 
             *.gotokeep.com , 
             buy.itunes.apple.com , 
             dxy.com , 
             mid.zineapi.com , 
-            api-prod.languagedrops.com , 
+            api-prod.languagedrops.com ,
             *.wallpaperscraft.com , 
             vni.kwaiying.com ,
             spclient.wg.spotify.com , 
             api.revenuecat.com , 
             api.tidal.com
+
+
+
 
 #  Siri 与 搜索 丨
 
