@@ -1,4 +1,7 @@
-hostname = *.intsig.net , pan.baidu.com ,  lchttpapi.xczim.com , account.wps.cn , account.wps.* , vira.llsapp.com , notability.com , server.yoyiapp.com , *.gotokeep.com , buy.itunes.apple.com , dxy.com , mid.zineapi.com , api-prod.languagedrops.com , *.wallpaperscraft.com , vni.kwaiying.com ,spclient.wg.spotify.com , api.revenuecat.com , api.tidal.com  , %APPEND% api-production.endel.io
+hostname =  weather-data.apple.com , *.intsig.net , pan.baidu.com ,  lchttpapi.xczim.com , account.wps.cn , account.wps.* , vira.llsapp.com , notability.com , server.yoyiapp.com , *.gotokeep.com , buy.itunes.apple.com , dxy.com , mid.zineapi.com , api-prod.languagedrops.com , *.wallpaperscraft.com , vni.kwaiying.com ,spclient.wg.spotify.com , api.revenuecat.com , api.tidal.com  , %APPEND% api-production.endel.io
+
+# 空气质量
+^https:\/\/weather-data\.apple\.com\/v2\/weather\/[\w-]+\/-?[0-9]+\.[0-9]+\/-?[0-9]+\.[0-9]+\? url script-response-body https://raw.githubusercontent.com/githubdulong/Script/master/iOS15_Weather_AQI_US.js
 
 # > 扫描全能王 
 ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/Alodaner/Quantumult-X/master/JavaScript/CamScanner.js
