@@ -1,8 +1,4 @@
-hostname =  -cdn*.smoot.apple.com,-fbs.smoot.apple.com,*.smoot.apple.com,*.smoot.apple.cn,weather-data.apple.com,scibug.com,%APPEND% asia-east2-slidebox-ios-prod.cloudfunctions.net,*.intsig.net,pan.baidu.com,lchttpapi.xczim.com,account.wps.cn,account.wps.*,vira.llsapp.com,notability.com,server.yoyiapp.com,*.gotokeep.com,buy.itunes.apple.com, dxy.com,mid.zineapi.com,api-prod.languagedrops.com,*.wallpaperscraft.com,vni.kwaiying.com,spclient.wg.spotify.com,api.revenuecat.com,api.tidal.com,%APPEND% api-production.endel.io
-
-
-
-
+hostname =  -cdn*.smoot.apple.com,-fbs.smoot.apple.com,*.smoot.apple.com,*.smoot.apple.cn,weather-data.apple.com,scibug.com,%APPEND% asia-east2-slidebox-ios-prod.cloudfunctions.net,*.intsig.net,pan.baidu.com,lchttpapi.xczim.com,account.wps.cn,account.wps.*,vira.llsapp.com,notability.com,server.yoyiapp.com,*.gotokeep.com,buy.itunes.apple.com, dxy.com,mid.zineapi.com,api-prod.languagedrops.com,*.wallpaperscraft.com,vni.kwaiying.com,spclient.wg.spotify.com,api.revenuecat.com,api.tidal.com,%APPEND% api-production.endel.io,
 
 #  Siri 与 搜索 丨 -cdn*.smoot.apple.com, -fbs.smoot.apple.com, *.smoot.apple.com, *.smoot.apple.cn 
 
@@ -84,4 +80,3 @@ https?:\/\/api\.magictouch\.design\/user\/user\/getUserByDevice url script-respo
 
 # Endel  丨 %APPEND% api-production.endel.io
 ^https?:\/\/api-production.endel.io\/v3\/call url script-response-body https://raw.githubusercontent.com/cpphut/scripts/main/js/endel.js
-
