@@ -1,4 +1,8 @@
-hostname =  weather-data.apple.com , 
+hostname =  
+            -cdn*.smoot.apple.com,-fbs.smoot.apple.com,*.smoot.apple.com,*.smoot.apple.cn,
+            scibug.com,
+            %APPEND% asia-east2-slidebox-ios-prod.cloudfunctions.net,
+            weather-data.apple.com , 
             *.intsig.net , 
             pan.baidu.com , 
             lchttpapi.xczim.com , 
