@@ -20,8 +20,7 @@ hostname =
             vni.kwaiying.com ,
             spclient.wg.spotify.com , 
             api.revenuecat.com , 
-            api.tidal.com , 
-            %APPEND% api-production.endel.io
+            api.tidal.com
 
 #  Siri 与 搜索 丨
 
