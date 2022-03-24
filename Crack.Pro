@@ -1,5 +1,7 @@
-hostname = appraven.net , -cdn*.smoot.apple.com,-fbs.smoot.apple.com,*.smoot.apple.com,*.smoot.apple.cn,weather-data.apple.com ,scibug.com, *.intsig.net , pan.baidu.com , lchttpapi.xczim.com , account.wps.cn , account.wps.* , vira.llsapp.com , notability.com , server.yoyiapp.com , *.gotokeep.com , buy.itunes.apple.com , dxy.com , mid.zineapi.com , api-prod.languagedrops.com , *.wallpaperscraft.com , vni.kwaiying.com ,spclient.wg.spotify.com , api.revenuecat.com , api.tidal.com
+hostname = appraven.net , -cdn*.smoot.apple.com,-fbs.smoot.apple.com,*.smoot.apple.com,*.smoot.apple.cn,weather-data.apple.com ,scibug.com, *.intsig.net , pan.baidu.com , lchttpapi.xczim.com , account.wps.cn , account.wps.* , vira.llsapp.com , notability.com , server.yoyiapp.com , *.gotokeep.com , buy.itunes.apple.com , dxy.com , mid.zineapi.com , api-prod.languagedrops.com , *.wallpaperscraft.com , vni.kwaiying.com ,spclient.wg.spotify.com , api.tidal.com
 
+
+# api.revenuecat.com , 
 
 #  Siri 与 搜索 丨
 
