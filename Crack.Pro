@@ -1,4 +1,4 @@
-hostname = -cdn*.smoot.apple.com,-fbs.smoot.apple.com,*.smoot.apple.com,*.smoot.apple.cn,weather-data.apple.com ,scibug.com, *.intsig.net , pan.baidu.com , lchttpapi.xczim.com , account.wps.cn , account.wps.* , vira.llsapp.com , notability.com , server.yoyiapp.com , *.gotokeep.com , buy.itunes.apple.com , dxy.com , mid.zineapi.com , api-prod.languagedrops.com , *.wallpaperscraft.com , vni.kwaiying.com ,spclient.wg.spotify.com , api.revenuecat.com , api.tidal.com
+hostname = appraven.net , -cdn*.smoot.apple.com,-fbs.smoot.apple.com,*.smoot.apple.com,*.smoot.apple.cn,weather-data.apple.com ,scibug.com, *.intsig.net , pan.baidu.com , lchttpapi.xczim.com , account.wps.cn , account.wps.* , vira.llsapp.com , notability.com , server.yoyiapp.com , *.gotokeep.com , buy.itunes.apple.com , dxy.com , mid.zineapi.com , api-prod.languagedrops.com , *.wallpaperscraft.com , vni.kwaiying.com ,spclient.wg.spotify.com , api.revenuecat.com , api.tidal.com
 
 
 #  Siri 与 搜索 丨
@@ -13,6 +13,9 @@ hostname = -cdn*.smoot.apple.com,-fbs.smoot.apple.com,*.smoot.apple.com,*.smoot.
 
 # > 空气质量 丨
 ^https?:\/\/weather-data\.apple\.com\/(v1|v2)\/weather.*(?!dataSets=forecastNextHour)(include=.*air_quality.*|dataSets=.*airQuality.*).*(country=[A-Z]{2})?.* url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Apple_Weather.js
+
+# > appraven丨
+^https?:\/\/appraven\.net\/AppRaven\/(app|social|buy) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/appraven.js
 
 # Symbolab  丨
 ^https?:\/\/scibug\.com\/appleSubscriptionValidate$ url script-response-body https://raw.githubusercontent.com/harry-sunhao/QuanX/main/Symbolab/symbolab.js
