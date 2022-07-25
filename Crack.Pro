@@ -48,9 +48,6 @@ https?:\/\/api\.magictouch\.design\/user\/user\/getUserByDevice url script-respo
 
 # > 丁香医生 丨
 ^https:\//dxy.com\/app\/i\/user\/ask\/account\?ac url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/dxys.js
-^https:\/\/newdrugs\.dxy\.cn\/app\/user\/(init|pro\/stat) url script-response-body https://raw.githubusercontent.com/gitLopp/quanjd/main/MedicationAssistant.js
-^https:\/\/i\.dxy\.cn\/snsapi\/username\/* url script-response-body https://raw.githubusercontent.com/gitLopp/quanjd/main/MedicationAssistant.js
-
 
 # > Varlens 丨
 ^https:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/ url script-response-body https://raw.githubusercontent.com/Alodaner/Quantumult-X/master/JavaScript/Varlens.js
