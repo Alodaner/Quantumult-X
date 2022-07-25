@@ -1,4 +1,4 @@
-hostname = revenuecat.lakecoloring.com, appraven.net ,scibug.com, *.intsig.net , pan.baidu.com , lchttpapi.xczim.com , account.wps.cn , account.wps.* , vira.llsapp.com , notability.com , server.yoyiapp.com , buy.itunes.apple.com , dxy.com , mid.zineapi.com , api-prod.languagedrops.com , *.wallpaperscraft.com , vni.kwaiying.com ,spclient.wg.spotify.com , api.tidal.com
+hostname = revenuecat.lakecoloring.com, appraven.net ,scibug.com, *.intsig.net , pan.baidu.com , lchttpapi.xczim.com , account.wps.cn , account.wps.* , vira.llsapp.com , notability.com , server.yoyiapp.com , buy.itunes.apple.com , *.dxy.com , mid.zineapi.com , api-prod.languagedrops.com , *.wallpaperscraft.com , vni.kwaiying.com ,spclient.wg.spotify.com , api.tidal.com
 
 
 # api.revenuecat.com , *.gotokeep.com , 
@@ -48,6 +48,9 @@ https?:\/\/api\.magictouch\.design\/user\/user\/getUserByDevice url script-respo
 
 # > 丁香医生 丨
 ^https:\//dxy.com\/app\/i\/user\/ask\/account\?ac url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/dxys.js
+^https:\/\/newdrugs\.dxy\.cn\/app\/user\/(init|pro\/stat) url script-response-body https://raw.githubusercontent.com/gitLopp/quanjd/main/MedicationAssistant.js
+^https:\/\/i\.dxy\.cn\/snsapi\/username\/* url script-response-body https://raw.githubusercontent.com/gitLopp/quanjd/main/MedicationAssistant.js
+
 
 # > Varlens 丨
 ^https:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/ url script-response-body https://raw.githubusercontent.com/Alodaner/Quantumult-X/master/JavaScript/Varlens.js
