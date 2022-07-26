@@ -1,11 +1,8 @@
-hostname = api.revenuecat.com, revenuecat.lakecoloring.com, appraven.net ,scibug.com, *.intsig.net , pan.baidu.com , lchttpapi.xczim.com , account.wps.cn , account.wps.* , vira.llsapp.com , notability.com , server.yoyiapp.com , buy.itunes.apple.com , *.dxy.com , mid.zineapi.com , api-prod.languagedrops.com , *.wallpaperscraft.com , vni.kwaiying.com ,spclient.wg.spotify.com , api.tidal.com
+hostname =  revenuecat.lakecoloring.com, appraven.net ,scibug.com, *.intsig.net , pan.baidu.com , lchttpapi.xczim.com , account.wps.cn , account.wps.* , vira.llsapp.com , notability.com , server.yoyiapp.com , buy.itunes.apple.com , *.dxy.com , mid.zineapi.com , api-prod.languagedrops.com , *.wallpaperscraft.com , vni.kwaiying.com ,spclient.wg.spotify.com , api.tidal.com
 
 
-#  , *.gotokeep.com , 
+#  ,api.revenuecat.com, *.gotokeep.com , 
 
-# > VSCO|pillow
-^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/ url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
-^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
 
 
 # > Lake Pro丨
