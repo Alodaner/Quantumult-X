@@ -6,7 +6,7 @@ hostname =  revenuecat.lakecoloring.com, appraven.net ,scibug.com, *.intsig.net 
 
 
 # > Lake Pro丨
-https?:\/\/revenuecat\.lakecoloring\.com\/v\d\/(receipts|subscribers) url script-echo-response https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/lakepro.js
+https://testflight.apple.com/join/sJEidjpehttps?:\/\/revenuecat\.lakecoloring\.com\/v\d\/(receipts|subscribers) url script-echo-response https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/lakepro.js
 
 # > appraven丨
 ^https?:\/\/appraven\.net\/AppRaven\/(app|social|buy) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/appraven.js
