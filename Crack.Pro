@@ -3,7 +3,9 @@ hostname =  revenuecat.lakecoloring.com, appraven.net ,scibug.com, *.intsig.net 
 
 #  ,api.revenuecat.com, *.gotokeep.com , 
 
+# > Picsew
 
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PicsewProCrack.js
 
 # > Lake Pro丨
 https://testflight.apple.com/join/sJEidjpehttps?:\/\/revenuecat\.lakecoloring\.com\/v\d\/(receipts|subscribers) url script-echo-response https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/lakepro.js
