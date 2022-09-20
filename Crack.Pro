@@ -7,7 +7,7 @@ hostname = hweb-mbf.huazhu.com , zhiyou.smzdm.com , revenuecat.lakecoloring.com,
 https:\/\/hweb-mbf\.huazhu\.com\/api\/signIn url script-request-body https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hzh/hzh.js
 
 # > 什么值得买丨
-^https?:\/\/zhiyou\.smzdm\.com\/user\/?$ url script-request-header https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js
+^https?:\/\/zhiyou\.smzdm\.com\/user\/?$ url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/quanx/smzdm.js
 
 # > Picsew
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PicsewProCrack.js
