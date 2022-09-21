@@ -4,7 +4,7 @@ hostname = daojia.jd.com , hweb-mbf.huazhu.com , zhiyou.smzdm.com , revenuecat.l
 #  ,api.revenuecat.com, *.gotokeep.com , 
 
 # > 京东到家
-https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.cookie.js
+^https:\/\/daojia.jd.com/client(.*?)functionId=signin(.*?)userSigninNew url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.cookie.js
 
 # > 华  住  会丨
 https:\/\/hweb-mbf\.huazhu\.com\/api\/signIn url script-request-body https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hzh/hzh.js
