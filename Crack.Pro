@@ -43,7 +43,7 @@ https://lchttpapi.xczim.com/* url script-response-body https://raw.githubusercon
 ^https?:\/\/vira\.llsapp\.com\/api\/v\d\/\w+\/\w+$ url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/LiuLiShuo-YueDu.js
 
 # > Notability 丨
-https://notability.com/subscriptions url script-response-body https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Crack/notability.js
+^https?:\/\/notability\.com\/subscriptions url script-response-body https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Notability.js
 
 # > FIMO相机 丨
 ^https?:\/\/server\.yoyiapp\.com\/fimo-user\/apple\/certificate$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/FiMoCameraFVIPCrack.js
