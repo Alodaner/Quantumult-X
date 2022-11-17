@@ -31,7 +31,7 @@ https?:\/\/revenuecat\.lakecoloring\.com\/v\d\/(receipts|subscribers) url script
 ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/Alodaner/Quantumult-X/master/JavaScript/CamScanner.js
 
 # > 百度网盘 丨
-https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Crack/bdcloud.js
+https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
 
 # > 西 窗 烛 丨
 https://lchttpapi.xczim.com/* url script-response-body https://raw.githubusercontent.com/Alodaner/Quantumult-X/master/JavaScript/XC-Culture.js
@@ -46,7 +46,7 @@ https://lchttpapi.xczim.com/* url script-response-body https://raw.githubusercon
 https://notability.com/subscriptions url script-response-body https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Crack/notability.js
 
 # > FIMO相机 丨
-^https://server.yoyiapp.com/fimo-user/user$ url script-response-body https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Crack/fimo.js
+^https?:\/\/server\.yoyiapp\.com\/fimo-user\/apple\/certificate$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/FiMoCameraFVIPCrack.js
 
 # > keep会员 丨
 
