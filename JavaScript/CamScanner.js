@@ -31,5 +31,5 @@ hostname = ap*.intsig.net
 **************************/
 
 let obj = JSON.parse($response.body);
-obj = {"data":{"psnl_vip_property":{"expiry":"5615130487"}}};
+obj = {"data":{"psnl_vip_property":{"expiry":"1215130487"}}};
 $done({body: JSON.stringify(obj)});
