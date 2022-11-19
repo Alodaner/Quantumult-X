@@ -37,7 +37,7 @@ https?:\/\/revenuecat\.lakecoloring\.com\/v\d\/(receipts|subscribers) url script
 https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
 
 # > 西 窗 烛 丨
-https://lchttpapi.xczim.com/* url script-response-body https://raw.githubusercontent.com/Alodaner/Quantumult-X/master/JavaScript/XC-Culture.js
+^https:\/\/lchttpapi\.xczim\.com url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/xcz.js
 
 # > WPS 会员 丨
 ^https://account.wps.*/api/users/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
