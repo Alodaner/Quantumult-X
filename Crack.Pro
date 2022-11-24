@@ -5,7 +5,7 @@ hostname = cubox.pro  ,  api.craft.do , daojia.jd.com , hweb-mbf.huazhu.com , zh
 
 
 # > Cubox 丨
-^https:\/\/cubox\.pro\/c\/api\/userInfo url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/cubox.js
+^https:\/\/cubox\.pro\/c\/api\/userInfo url script-response-body https://raw.githubusercontent.com/Alodaner/Quantumult-X/master/JavaScript/Cubox.js
 
 # > Craft 丨
 ^https:\/\/api\.craft\.do\/auth\/v2\/profile url script-response-body https://raw.githubusercontent.com/gjwj666/jichang/main/Craft.js
