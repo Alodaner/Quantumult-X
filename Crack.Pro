@@ -16,7 +16,7 @@ hostname =  cubox.pro  ,  api.craft.do , daojia.jd.com , hweb-mbf.huazhu.com , z
 ^https:\/\/daojia.jd.com/client(.*?)functionId=signin(.*?)userSigninNew url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.cookie.js
 
 # > 华 住 会丨 hweb-mbf.huazhu.com
-https:\/\/hweb-mbf\.huazhu\.com\/api\/signIn url script-request-body https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hzh/hzh.js
+https:\/\/hweb-mbf\.huazhu\.com\/api\/signIn url script-request-body https://raw.githubusercontent.com/Alodaner/Quantumult-X/master/JavaScript/hzh.js
 
 # > 什么值得丨 zhiyou.smzdm.com
 ^https?:\/\/zhiyou\.smzdm\.com\/user\/?$ url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/quanx/smzdm.js
