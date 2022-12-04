@@ -1,6 +1,4 @@
-hostname = ad.12306.cn , 
-           mp.weixin.qq.com , 
-           edith.xiaohongshu.com,www.xiaohongshu.com,pages.xiaohongshu.com,referee.xiaohongshu.com ,
+hostname = ad.12306.cn , mp.weixin.qq.com , edith.xiaohongshu.com,www.xiaohongshu.com,pages.xiaohongshu.com,referee.xiaohongshu.com ,
 
 
 
@@ -14,7 +12,7 @@ hostname = ad.12306.cn ,
 ##########小红书############
 ###########################
 
-# > 小红书_开屏广告@ddgksf2013
+# > 小红书_开屏广告@ddgksf2013 丨 edith.xiaohongshu.com,www.xiaohongshu.com,pages.xiaohongshu.com,referee.xiaohongshu.com ,
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/xiaohongshu.js
 # > 小红书_瀑布流@ddgksf2013
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\? url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/xiaohongshu.js
