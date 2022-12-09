@@ -5,7 +5,7 @@ hostname =  testflight.apple.com  , cubox.pro  ,  api.craft.do , daojia.jd.com ,
 
 # > TestFlight丨testflight.apple.com
 ^https:\/\/testflight\.apple\.com\/v3\/accounts/.*\/apps$ url script-request-header https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/testflight/TF_keys.js
-^https://testflight.apple.com/join/(.*) url script-request-header https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/testflight/TF_keys.js
+#^https://testflight.apple.com/join/(.*) url script-request-header https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/testflight/TF_keys.js
 
 # > MiDi  丨 api.revenuecat.com
 # ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/mdsz.js
