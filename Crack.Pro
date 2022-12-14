@@ -20,6 +20,7 @@ hostname = cubox.pro  ,  api.craft.do , daojia.jd.com , hweb-mbf.huazhu.com , zh
 https:\/\/hweb-mbf\.huazhu\.com\/api\/signIn url script-request-body https://raw.githubusercontent.com/Alodaner/Quantumult-X/master/JavaScript/hzh.js
 
 # > 什么值得丨 zhiyou.smzdm.com
+^https:\/\/www\.smzdm\.com\/?.? url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/quanx/smzdm.cookie.js
 ^https?:\/\/zhiyou\.smzdm\.com\/user\/?$ url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/quanx/smzdm.js
 
 # > Picsew 丨
