@@ -55,8 +55,9 @@ https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-bo
 ^https?:\/\/notability\.com\/subscriptions url script-response-body https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Notability.js
 
 # > FIMO相机 丨
-^https?:\/\/server\.yoyiapp\.com\/fimo-user\/apple\/certificate$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/FimoCamVipCrack.js
-#^https://server.yoyiapp.com/fimo-user/user$ url script-response-body https://github.com/ddgksf2013/dev/raw/main/FimoProCrack.js
+# ^https?:\/\/server\.yoyiapp\.com\/fimo-user\/apple\/certificate$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/FimoCamVipCrack.js
+^https://server.yoyiapp.com/fimo-user/user$ url script-response-body https://github.com/ddgksf2013/dev/raw/main/FimoProCrack.js
+
 
 # > 克拉壁纸 丨
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/ClarityPaperProCrack.js
