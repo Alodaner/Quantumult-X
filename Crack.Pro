@@ -5,7 +5,7 @@ hostname =  cubox.pro  ,  api.craft.do , daojia.jd.com , hweb-mbf.huazhu.com , z
 
 
 # > MiDi  丨 api.revenuecat.com
-# ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/mdsz.js
+^https?:\/\/buy\.itunes\.apple\.com\/\w{13}$ url script-response-body https://github.com/ddgksf2013/MoYu/raw/master/MDClockProCrack.js
 
 # > Cubox 丨 cubox.pro
 ^https:\/\/cubox\.pro\/c\/api\/userInfo url script-response-body https://raw.githubusercontent.com/Alodaner/Quantumult-X/master/JavaScript/Cubox.js
