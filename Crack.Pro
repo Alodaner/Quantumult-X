@@ -3,8 +3,8 @@ hostname =  cubox.pro  ,  api.craft.do , daojia.jd.com , hweb-mbf.huazhu.com , z
 
 #  ,api.revenuecat.com, *.gotokeep.com , 
 
-# > Videoleap  丨 api.lightricks.com
-# ^https:\/1/api\.lightricks\.com\/subscription url script-response-body videoleap.js
+# > 卡片日记  丨 buy.itunes.apple.com
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Alodaner/Quantumult-X/master/JavaScript/CardDiary.js
 
 # > MiDi  丨 api.revenuecat.com
 ^https?:\/\/buy\.itunes\.apple\.com\/\w{13}$ url script-response-body https://github.com/ddgksf2013/MoYu/raw/master/mdclock.js
