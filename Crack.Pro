@@ -6,11 +6,11 @@ hostname =  restore-access.indream.app , cubox.pro  ,  api.craft.do , daojia.jd.
 # > Nicegram  丨 restore-access.indream.app
 ^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$ url script-echo-response https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Nicegram/Script/Nicegram.js
 
-# > 卡片日记  丨 buy.itunes.apple.com
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Alodaner/Quantumult-X/master/JavaScript/CardDiary.js
-
 # > MiDi  丨 api.revenuecat.com
 ^https?:\/\/buy\.itunes\.apple\.com\/\w{13}$ url script-response-body https://github.com/ddgksf2013/MoYu/raw/master/mdclock.js
+
+# > 卡片日记  丨 buy.itunes.apple.com
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Alodaner/Quantumult-X/master/JavaScript/CardDiary.js
 
 # > Cubox 丨 cubox.pro
 ^https:\/\/cubox\.pro\/c\/api\/userInfo url script-response-body https://raw.githubusercontent.com/Alodaner/Quantumult-X/master/JavaScript/Cubox.js
