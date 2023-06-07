@@ -1,7 +1,10 @@
-hostname =  restore-access.indream.app , cubox.pro  ,  api.craft.do , daojia.jd.com , hweb-mbf.huazhu.com , zhiyou.smzdm.com , revenuecat.lakecoloring.com, appraven.net ,  scibug.com,   *.intsig.net , pan.baidu.com , lchttpapi.xczim.com , account.wps.cn , account.wps.* , vira.llsapp.com , notability.com , server.zbisq.com, server.yoyiapp.com , buy.itunes.apple.com , *.dxy.com , mid.zineapi.com , api-prod.languagedrops.com , *.wallpaperscraft.com , vni.kwaiying.com ,spclient.wg.spotify.com , api.tidal.com
+hostname = api.getdailyart.com  ,  restore-access.indream.app , cubox.pro  ,  api.craft.do , daojia.jd.com , hweb-mbf.huazhu.com , zhiyou.smzdm.com , revenuecat.lakecoloring.com, appraven.net ,  scibug.com,   *.intsig.net , pan.baidu.com , lchttpapi.xczim.com , account.wps.cn , account.wps.* , vira.llsapp.com , notability.com , server.zbisq.com, server.yoyiapp.com , buy.itunes.apple.com , *.dxy.com , mid.zineapi.com , api-prod.languagedrops.com , *.wallpaperscraft.com , vni.kwaiying.com ,spclient.wg.spotify.com , api.tidal.com
 
 
 #  ,api.revenuecat.com, *.gotokeep.com , 
+
+# > DailyArt  丨 api.getdailyart.com
+^https?:\/\/api\.getdailyart\.com\/api\/(subscription\/verified|auth\/login|check-logged) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/DailyArt.js
 
 # > Nicegram  丨 restore-access.indream.app
 ^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$ url script-echo-response https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Nicegram/Script/Nicegram.js
