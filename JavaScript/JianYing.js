@@ -8,7 +8,7 @@ TG频道群：https://t.me/gjwj6
 使用声明：此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 *******************************
 [rewrite_local]
-^http[s]?:\/\/commerce-api-.*\.faceu\.mobi\/commerce\/v1\/.*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/jianying.js
+^http[s]?:\/\/commerce-api-.*\.faceu\.mobi\/commerce\/v1\/.*$ url script-request-header https://raw.githubusercontent.com/Alodaner/Quantumult-X/master/JavaScript/JianYing.js
 [mitm] 
 hostname = *faceu*,*retouchpics*
 *******************************/
