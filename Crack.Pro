@@ -1,7 +1,7 @@
-hostname = license.pdfexpert.com, flomoapp.com , api.getdailyart.com   , cubox.pro  ,  api.craft.do , daojia.jd.com , hweb-mbf.huazhu.com , zhiyou.smzdm.com , revenuecat.lakecoloring.com, appraven.net ,  scibug.com,   *.intsig.net , pan.baidu.com , lchttpapi.xczim.com , account.wps.cn , account.wps.* , vira.llsapp.com , notability.com , server.zbisq.com, server.yoyiapp.com ,  *.dxy.com , mid.zineapi.com , api-prod.languagedrops.com , *.wallpaperscraft.com , vni.kwaiying.com ,spclient.wg.spotify.com , api.tidal.com
+hostname = license.pdfexpert.com, flomoapp.com , api.getdailyart.com   , cubox.pro  ,   daojia.jd.com , hweb-mbf.huazhu.com , zhiyou.smzdm.com , revenuecat.lakecoloring.com, appraven.net ,  scibug.com,   *.intsig.net , pan.baidu.com , lchttpapi.xczim.com , account.wps.cn , account.wps.* , vira.llsapp.com , notability.com , server.zbisq.com, server.yoyiapp.com ,  *.dxy.com , mid.zineapi.com , api-prod.languagedrops.com , *.wallpaperscraft.com , vni.kwaiying.com ,spclient.wg.spotify.com , api.tidal.com
 
 
-#  ,  restore-access.indream.app ,api.revenuecat.com, *.gotokeep.com , buy.itunes.apple.com ,
+# api.craft.do  ,  restore-access.indream.app ,api.revenuecat.com, *.gotokeep.com , buy.itunes.apple.com ,
 
 # > Calendars  丨 license.pdfexpert.com
 ^https:\/\/license\.pdfexpert\.com\/api\/.+\/calendarslite\/subscription\/refresh url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/calendars.js
@@ -25,7 +25,7 @@ hostname = license.pdfexpert.com, flomoapp.com , api.getdailyart.com   , cubox.p
 ^https:\/\/cubox\.pro\/c\/api\/userInfo url script-response-body https://raw.githubusercontent.com/Alodaner/Quantumult-X/master/JavaScript/Cubox.js
 
 # > Craft 丨 api.craft.do
-^https:\/\/api\.craft\.do\/auth\/v2\/profile url script-response-body https://raw.githubusercontent.com/gjwj666/jichang/main/Craft.js
+# ^https:\/\/api\.craft\.do\/auth\/v2\/profile url script-response-body https://raw.githubusercontent.com/gjwj666/jichang/main/Craft.js
 
 # > 京东到家丨 daojia.jd.com
 ^https:\/\/daojia.jd.com/client(.*?)functionId=signin(.*?)userSigninNew url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.cookie.js
