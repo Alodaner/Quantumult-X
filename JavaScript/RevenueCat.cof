@@ -20,7 +20,7 @@ hostname=api.revenuecat.com
 
 // ========= 动态ID ========= //
 const mapping = {
-  'Rond': ['all'],
+  'Rond': ['pro'],
   '%E8%BD%A6%E7%A5%A8%E7%A5%A8': ['vip+watch_vip'],
   'FinancialNote': ['category'],
   'Precious/': ['Pro'],
