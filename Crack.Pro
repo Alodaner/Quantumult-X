@@ -4,13 +4,13 @@ hostname = license.pdfexpert.com, flomoapp.com , api.getdailyart.com   , cubox.p
 # api.craft.do  ,  restore-access.indream.app ,api.revenuecat.com, *.gotokeep.com , buy.itunes.apple.com ,
 
 # > Calendars  丨 license.pdfexpert.com
-^https:\/\/license\.pdfexpert\.com\/api\/.+\/calendarslite\/subscription\/refresh url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/calendars.js
+# ^https:\/\/license\.pdfexpert\.com\/api\/.+\/calendarslite\/subscription\/refresh url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/calendars.js
 
 # > Flomo  丨 flomoapp.com
 ^https:\/\/flomoapp\.com\/api\/v1\/user\/me url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/flomo.js
 
 # > DailyArt  丨 api.getdailyart.com
-^https?:\/\/api\.getdailyart\.com\/api\/(subscription\/verified|auth\/login|check-logged) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/DailyArt.js
+# ^https?:\/\/api\.getdailyart\.com\/api\/(subscription\/verified|auth\/login|check-logged) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/DailyArt.js
 
 # > Nicegram  丨 restore-access.indream.app
 # ^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$ url script-echo-response https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Nicegram/Script/Nicegram.js
