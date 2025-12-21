@@ -1,7 +1,16 @@
-hostname = license.pdfexpert.com, flomoapp.com , api.getdailyart.com   , cubox.pro  ,   daojia.jd.com , hweb-mbf.huazhu.com , zhiyou.smzdm.com , revenuecat.lakecoloring.com, appraven.net ,  scibug.com,   *.intsig.net , pan.baidu.com , lchttpapi.xczim.com , account.wps.cn , account.wps.* , vira.llsapp.com , notability.com , server.zbisq.com, server.yoyiapp.com ,  *.dxy.com , mid.zineapi.com , api-prod.languagedrops.com , *.wallpaperscraft.com , vni.kwaiying.com ,spclient.wg.spotify.com , api.tidal.com
+hostname = www.google.cn, www.g.cn, forest-api.upwardsware.com, spclient.wg.spotify.com, *spclient.spotify.com, license.pdfexpert.com, flomoapp.com , api.getdailyart.com   , cubox.pro  ,   daojia.jd.com , hweb-mbf.huazhu.com , zhiyou.smzdm.com , revenuecat.lakecoloring.com, appraven.net ,  scibug.com,   *.intsig.net , pan.baidu.com , lchttpapi.xczim.com , account.wps.cn , account.wps.* , vira.llsapp.com , notability.com , server.zbisq.com, server.yoyiapp.com ,  *.dxy.com , mid.zineapi.com , api-prod.languagedrops.com , *.wallpaperscraft.com , vni.kwaiying.com ,spclient.wg.spotify.com , api.tidal.com
+
 
 
 # api.craft.do  ,  restore-access.indream.app ,api.revenuecat.com, *.gotokeep.com , buy.itunes.apple.com ,
+
+# Google 重定向
+^https?://(www\.)?g\.cn url 302 https://www.google.com
+^https?://(www\.)?google\.cn url 302 https://www.google.com
+^https?://(www\.)?google\.cn/search url 302 https://www.google.com/search
+
+# forest 
+^https:\/\/forest-api\.upwardsware\.com\/user\/users\/\d+\/service-levels\/status\?.*$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/forest.js
 
 # > Calendars  丨 license.pdfexpert.com
 # ^https:\/\/license\.pdfexpert\.com\/api\/.+\/calendarslite\/subscription\/refresh url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/calendars.js
@@ -38,7 +47,7 @@ https:\/\/hweb-mbf\.huazhu\.com\/api\/signIn url script-request-body https://raw
 ^https?:\/\/zhiyou\.smzdm\.com\/user\/?$ url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/quanx/smzdm.js
 
 # > appraven丨
-^https?:\/\/appraven\.net\/AppRaven\/(app|social|buy) url script-response-body https://raw.githubusercontent.com/Alodaner/Quantumult-X/master/JavaScript/appraven.js
+# ^https?:\/\/appraven\.net\/AppRaven\/(app|social|buy) url script-response-body https://raw.githubusercontent.com/Alodaner/Quantumult-X/master/JavaScript/appraven.js
 
 # > Symbolab  丨
 ^https?:\/\/scibug\.com\/appleSubscriptionValidate$ url script-response-body https://raw.githubusercontent.com/harry-sunhao/QuanX/main/Symbolab/symbolab.js
@@ -69,6 +78,7 @@ https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-bo
 # ^https?:\/\/server\.yoyiapp\.com\/fimo-user\/apple\/certificate$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/FimoCamVipCrack.js
 # ^https://server.yoyiapp.com/fimo-user/user$ url script-response-body https://github.com/ddgksf2013/dev/raw/main/FimoProCrack.js
 # ^https?:\/\/server\.zbisq\.com\/fimo-user url script-response-body fimoProCrack.js
+^https?:\/\/fimo\.appfimo\.com\/fimo-.*\/(user|apple\/certificate|config|startPopConfig|filmAll) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/fimo.js
 
 # > 克拉壁纸 丨
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/ClarityPaperProCrack.js
@@ -83,8 +93,9 @@ https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-bo
 ^https?:\/\/billing-ios\.wallpaperscraft\.com\/verify_receipt\/remove_ads$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/WallCraftFProCrack.js
 
 # > Spotify 丨
-^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
-
+^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/user-customization-service\/v1\/customize$ url script-request-header https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-qx-header.js
+^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ url script-request-header https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js
 # > Grow 会员 丨
 # ^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ url script-echo-response https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/Grow.js
 # ^https?:\/\/api\.revenuecat\.com\/v\d\/receipts$ url script-echo-response https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/Grow.js
