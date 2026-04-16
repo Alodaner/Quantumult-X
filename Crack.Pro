@@ -1,4 +1,4 @@
-hostname = www.google.cn, www.g.cn, forest-api.upwardsware.com, spclient.wg.spotify.com, *spclient.spotify.com, license.pdfexpert.com, flomoapp.com , api.getdailyart.com   , cubox.pro  ,   daojia.jd.com , hweb-mbf.huazhu.com , zhiyou.smzdm.com , revenuecat.lakecoloring.com, appraven.net ,  scibug.com,   *.intsig.net , pan.baidu.com , lchttpapi.xczim.com , account.wps.cn , fimo.appfimo.com, account.wps.* , vira.llsapp.com , notability.com , server.zbisq.com, server.yoyiapp.com ,  *.dxy.com , mid.zineapi.com , api-prod.languagedrops.com , *.wallpaperscraft.com , vni.kwaiying.com ,spclient.wg.spotify.com , api.tidal.com
+hostname = firstclass.tripsy.app, www.google.cn, www.g.cn, forest-api.upwardsware.com, spclient.wg.spotify.com, *spclient.spotify.com, license.pdfexpert.com, flomoapp.com , api.getdailyart.com   , cubox.pro  ,   daojia.jd.com , hweb-mbf.huazhu.com , zhiyou.smzdm.com , revenuecat.lakecoloring.com, appraven.net ,  scibug.com,   *.intsig.net , pan.baidu.com , lchttpapi.xczim.com , account.wps.cn , fimo.appfimo.com, account.wps.* , vira.llsapp.com , notability.com , server.zbisq.com, server.yoyiapp.com ,  *.dxy.com , mid.zineapi.com , api-prod.languagedrops.com , *.wallpaperscraft.com , vni.kwaiying.com ,spclient.wg.spotify.com , api.tidal.com
 
 
 
@@ -8,6 +8,9 @@ hostname = www.google.cn, www.g.cn, forest-api.upwardsware.com, spclient.wg.spot
 ^https?://(www\.)?g\.cn url 302 https://www.google.com
 ^https?://(www\.)?google\.cn url 302 https://www.google.com
 ^https?://(www\.)?google\.cn/search url 302 https://www.google.com/search
+
+# Tripsy 
+^https?:\/\/firstclass\.tripsy\.app\/api\/v\d\/receipt\/update url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Tripsy.js
 
 # forest 
 ^https:\/\/forest-api\.upwardsware\.com\/user\/users\/\d+\/service-levels\/status\?.*$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/forest.js
