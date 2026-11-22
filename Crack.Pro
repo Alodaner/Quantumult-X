@@ -66,7 +66,7 @@ https:\/\/hweb-mbf\.huazhu\.com\/api\/signIn url script-request-body https://raw
 https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/BaiduCloud.js
 
 # > 西 窗 烛 丨 lchttpapi.xczim.com
-^https:\/\/lchttpapi\.xczim\.com url script-response-body https://raw.githubusercontent.com/Alodaner/Quantumult-X/refs/heads/master/JavaScript/XiChuang.js
+# ^https:\/\/lchttpapi\.xczim\.com url script-response-body https://raw.githubusercontent.com/Alodaner/Quantumult-X/refs/heads/master/JavaScript/XiChuang.js
 # https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/xcz.js
 
 # > WPS 会员 丨
